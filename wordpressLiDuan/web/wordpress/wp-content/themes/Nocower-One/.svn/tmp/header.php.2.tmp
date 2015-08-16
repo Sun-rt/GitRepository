@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=10,IE=9,IE=8,ie=7">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title><?php wp_title('-', true, 'right'); echo get_option('blogname'); if (is_home ()) echo get_option('blogdescription'); if ($paged > 1) echo '-Page ', $paged; ?></title>
+<?php wp_head(); ?>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<link href="<?php bloginfo('template_directory'); ?>/css/bootstrap.css" rel="stylesheet">
+<link href="<?php bloginfo('template_directory'); ?>/css/header.css" rel="stylesheet">
+<link href="<?php bloginfo('template_directory'); ?>/css/index.css" rel="stylesheet">
+<script src="<?php bloginfo('template_directory'); ?>/js/jquery.min.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/js/cat.js"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"http:\/\/101.200.173.125\/wp-admin\/admin-ajax.php","text_wait":"\u4f60\u7684\u8bf7\u6c42\u6b63\u5728\u6267\u884c\u4e2d\uff0c\u8bf7\u7a0d\u7b49","text_valid":"\u8bf7\u9009\u62e9\u6709\u6548\u7684\u6295\u7968\u9009\u9879","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script src="<?php bloginfo('template_directory'); ?>/js/polls-js.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" media="all">
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/liduan.css" media="all">
+<!--[if lt IE 9]><script src="<?php bloginfo('template_url'); ?>/js/html5.js"></script><![endif]-->
+<!--[if lt IE 8]>
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/ie6.css" type="text/css"/> 
+<![endif]-->
+<!--[if IE 6]>
+		<script src="<?php bloginfo('template_url'); ?>/js/DD_belatedPNG_0.0.8a-min.js"></script>
+		<script>DD_belatedPNG.fix('.logo,.widgetzry ul,background,background');</script>
+<![endif]-->
+<script src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
+<script>
+    $.fn.postLike = function() {
+    if ($(this).hasClass('done')) {
+    return false;
+    } else {
+    $(this).addClass('done');
+    var id = $(this).data("id"),
+    action = $(this).data('action'),
+    rateHolder = $(this).children('.count');
+    var ajax_data = {
+    action: "bigfa_like",
+    um_id: id,
+    um_action: action
+    };
+    $.post("/wp-admin/admin-ajax.php", ajax_data,
+    function(data) {
+    $(rateHolder).html("["+data+"]");
+    });
+    return false;
+    }
+    };
+    $(document).on("click", ".favorite",
+    function() {
+    $(this).postLike();
+    });
+
+</script>
+
+</head>
+<body >
+	<div class="row" id="header">
+		<div class="col-md-12">
+			<div class="row" id="top">
+				<div class="col-md-12">
+					<div class="row" id="topbar">
+						<div class="col-md-4 col-md-offset-8">
+			                <ul class="topnav" >
+			                    
+			                     <?php if ( is_user_logged_in() ) { ?>
+			                     <li ><a href="#" class="btn btn-xs topnav-li-a"> <?php global $current_user; get_currentuserinfo(); echo $current_user->display_name; ?></a></li>
+			                     <li ><a href="<?php echo wp_logout_url("/"); ?>" title="退出" class="btn btn-xs">退出</a></li>
+			                    <?php } else { ?> 
+			                    
+			                    <li  ><a href="<?php echo get_settings('home'); ?>/register" class="btn btn-xs topnav_li_a">注册</a></li>
+			                    <li  ><a href="<?php echo get_settings('home'); ?>/login" class="btn btn-xs topnav_li_a">登录</a></li>
+			                    <?php } ?> 
+		                        <li  ><a href="<?php echo get_settings('home'); ?>" class="btn btn-link btn-xs">联系我们</a></li>
+			                </ul>
+		            	</div>
+					</div>
+					<div class="row" id="research">
+						<div class="col-md-4 col-md-offset-4">
+							<!--input class="researchinput" type="text" /-->
+							
+							<!--form class="navbar-form navbar-left" role="search" id="searchForm">	
+								<div class="form-group">		
+									<i class="fa fa-search"></i>		
+									<input results="s" type="search" class="form-control" placeholder=Search name="searchKeyWord" id="search-text">	
+								</div>
+							</form-->
+							<form class="serchForm" method="get"  action="<?php echo esc_url( home_url( '/' ) ); ?>" >
+								<div class="input-group">									
+										
+										<input class="search-text"  name="s" type="text" <?php if( is_search() ){ echo ' value="'.$s.'"'; } ?> autofocus="" x-webkit-speech="">								
+										<span class="input-group-addon" id="search-icon">
+											<i class="glyphicon glyphicon-search"></i>
+										</span>								
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="row" id="top_submit">
+						<div class="col-md-2 col-md-offset-10">
+							<!--button class="pull-right" id="top_btn_submit"-->
+							<!--button class="btn btn-small btn-color pull-right">
+								提交案例
+							</button-->
+							<ul class="topnav">
+							<li  ><a href="<?php echo get_settings('home')."/submit" ?>" class="btn btn-lg btn-color pull-right">提交案例</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row" id="bottom">
+				<li >
+					<a href="#" class="btn btn-lg bottom_li_a_all">全部</a>
+				</li> 
+				<?php  
+					$categorys = getCategorys();
+					foreach ($categorys as $category) { ?>
+						<li >
+							<a href="<?php echo get_category_link($category->term_id) ?>" class="btn btn-lg bottom_li_a"><?php echo get_cat_name(''. $category->term_id .'') ?></a>
+						</li> 
+				<?php };?>	
+			</div>
+		</div>
+	</div>
+	<!--
+<div class="header">
+    <div class="navbar">
+        <div class="row">
+            <div class="col-md-12 ">
+                <ul class="nav" style="float:right">
+                    <li class="page_item page-item-8 current_page_item" ><a href="<?php echo get_settings('home'); ?>">联系我们</a></li>
+                     <?php if ( is_user_logged_in() ) { ?>
+                     <li class="page_item page-item-8 current_page_item" ><a href="#"> <?php global $current_user; get_currentuserinfo(); echo $current_user->display_name; ?></a></li>
+                     <li class="page_item page-item-8 current_page_item"><a href="<?php echo wp_logout_url("/"); ?>" title="退出">退出</a></li>
+                    <?php } else { ?> 
+                    <li class="page_item page-item-8 current_page_item" ><a href="<?php echo get_settings('home'); ?>/login">登录</a></li>
+                    <li class="page_item page-item-8 current_page_item" ><a href="<?php echo get_settings('home'); ?>/register" >注册</a></li>
+                    <?php } ?> 
+                        
+                </ul>
+            </div>
+           
+        </div>
+   </div>
+   <div class="row" id="headerbar">
+    <div  class="row"  style="width:942px;margin:0 auto;">
+        <div  style="float:left">
+            <a href="#" ><img src="<?php echo get_settings('home')."/images/logo.png" ?>" style = "height:90px ;"></img></a>
+        </div>
+        <div class="row" style="float:right">
+            <a  style="margin-right:-150px" class="btn btn-default" href="<?php echo get_settings('home')."/submit" ?>"  role="button">提交案例</a>
+        </div>
+      </div>
+    </div>
+</div>
+-->
+
+	

@@ -1,0 +1,12 @@
+.post:nth-child(1) p,.post:nth-child(5) p,.post:nth-child(9) p {
+	color: #EB6F67;
+}
+.post:nth-child(2) p,.post:nth-child(6) p,.post:nth-child(10) p {
+	color: #AA8C50;
+}
+.post:nth-child(3) p,.post:nth-child(7) p,.post:nth-child(11) p {
+	color: #16A488;
+}
+.post:nth-child(4) p,.post:nth-child(8) p,.post:nth-child(12) p {
+	color: #36B1C0;
+}

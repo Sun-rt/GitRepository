@@ -1,0 +1,1698 @@
+# Translation of the WordPress plugin Theme My Login 5.0 by Jeff Farthing.
+# Copyright (C) 2010 Jeff Farthing
+# This file is distributed under the same license as the Theme My Login package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme My Login zh_CN\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/theme-my-login\n"
+"POT-Creation-Date: 2013-09-05 12:35+0800\n"
+"PO-Revision-Date: 2013-09-05 17:42+0800\n"
+"Last-Translator: 倡萌@WordPress大学 <admin@cmhello.com>\n"
+"Language-Team: 倡萌@WordPress大学 <admin@cmhello.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-theme-my-login-admin.php:67
+#: ../admin/class-theme-my-login-admin.php:116
+msgid "Theme My Login Settings"
+msgstr "Theme My Login 设置"
+
+#: ../admin/class-theme-my-login-admin.php:68
+msgid "TML"
+msgstr "TML"
+
+#: ../admin/class-theme-my-login-admin.php:76
+#: ../admin/class-theme-my-login-admin.php:77
+#: ../admin/class-theme-my-login-admin.php:84
+msgid "General"
+msgstr "常规"
+
+#: ../admin/class-theme-my-login-admin.php:85
+#: ../admin/class-theme-my-login-admin.php:90
+msgid "Modules"
+msgstr "模块"
+
+#: ../admin/class-theme-my-login-admin.php:88
+msgid "Stylesheet"
+msgstr "样式表"
+
+#: ../admin/class-theme-my-login-admin.php:89
+msgid "E-mail Login"
+msgstr "邮箱登录"
+
+#: ../admin/class-theme-my-login-admin.php:145
+msgid "Enable \"theme-my-login.css\""
+msgstr "启用样式 \"theme-my-login.css\""
+
+#: ../admin/class-theme-my-login-admin.php:146
+msgid ""
+"In order to keep changes between upgrades, you can store your customized "
+"\"theme-my-login.css\" in your current theme directory."
+msgstr ""
+"为了在升级时保留您所做的修改，建议将修改后的 \"theme-my-login.css\" 保存到您"
+"当前的主题目录。"
+
+#: ../admin/class-theme-my-login-admin.php:159
+msgid "Enable e-mail address login"
+msgstr "启用邮箱地址登录"
+
+#: ../admin/class-theme-my-login-admin.php:160
+msgid ""
+"Allows users to login using their e-mail address in place of their username."
+msgstr "允许用户使用邮箱替代用户名进行登录。"
+
+#: ../admin/class-theme-my-login-admin.php:175
+#, php-format
+msgid "Enable %s"
+msgstr "启用 %s"
+
+#: ../includes/class-theme-my-login-ms-signup.php:109
+msgctxt "Multisite active signup type"
+msgid "all"
+msgstr "所有"
+
+#: ../includes/class-theme-my-login-ms-signup.php:110
+msgctxt "Multisite active signup type"
+msgid "none"
+msgstr "无"
+
+#: ../includes/class-theme-my-login-ms-signup.php:111
+msgctxt "Multisite active signup type"
+msgid "blog"
+msgstr "博客"
+
+#: ../includes/class-theme-my-login-ms-signup.php:112
+msgctxt "Multisite active signup type"
+msgid "user"
+msgstr "用户"
+
+#: ../includes/class-theme-my-login-ms-signup.php:115
+#, php-format
+msgid ""
+"Greetings Site Administrator! You are currently allowing &#8220;%s&#8221; "
+"registrations. To change or disable registration go to your <a href=\"%s"
+"\">Options page</a>."
+msgstr ""
+"您好，管理员！您目前要允许 &#8220;%s&#8221; 注册。要更改或禁用注册请访问 <a "
+"href=\"%s\">设置页面</a>。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:121
+msgid "Registration has been disabled."
+msgstr "目前不允许注册。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:123
+#, php-format
+msgid ""
+"You must first <a href=\"%s\">log in</a>, and then you can create a new site."
+msgstr "您必须先 <a href=\"%s\">登录</a>，然后才可以创建新站点。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:147
+#, php-format
+msgid "%s is your new username"
+msgstr "%s 是您的新用户名"
+
+#: ../includes/class-theme-my-login-ms-signup.php:148
+msgid ""
+"But, before you can start using your new username, <strong>you must activate "
+"it</strong>."
+msgstr "但是，在使用这个新用户名之前，<strong>您必须先激活它</strong>。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:149
+#, php-format
+msgid "Check your inbox at <strong>%1$s</strong> and click the link given."
+msgstr "检查您 <strong>%1$s</strong> 的收件箱，点击邮件中的链接。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:150
+msgid ""
+"If you do not activate your username within two days, you will have to sign "
+"up again."
+msgstr "如果两天内您还没有激活您的用户名，您将必须重新注册。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:154
+msgid "User registration has been disabled."
+msgstr "目前不允许注册用户。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:186
+#, php-format
+msgid "Congratulations! Your new site, %s, is almost ready."
+msgstr "注册您！您的新站点 %s 已经准备就绪！"
+
+#: ../includes/class-theme-my-login-ms-signup.php:188
+msgid ""
+"But, before you can start using your site, <strong>you must activate it</"
+"strong>."
+msgstr "但是，在使用该站点前，<strong>您必须将激活它</strong>。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:189
+#, php-format
+msgid "Check your inbox at <strong>%s</strong> and click the link given."
+msgstr "检查您 <strong>%s</strong> 的收件箱，点击邮件中的链接。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:190
+msgid ""
+"If you do not activate your site within two days, you will have to sign up "
+"again."
+msgstr "如果两天内您还没有激活您的站点，您将必须重新注册。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:191
+msgid "Still waiting for your email?"
+msgstr "还在等待您的电子邮件？"
+
+#: ../includes/class-theme-my-login-ms-signup.php:193
+msgid ""
+"If you haven&#8217;t received your email yet, there are a number of things "
+"you can do:"
+msgstr "如果您还没有收到您的电子邮件，您可以做下面的事情："
+
+#: ../includes/class-theme-my-login-ms-signup.php:195
+msgid ""
+"Wait a little longer. Sometimes delivery of email can be delayed by "
+"processes outside of our control."
+msgstr "再等久一点。有时候邮件会有所延迟，这也是我们无法控制的。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:196
+msgid ""
+"Check the junk or spam folder of your email client. Sometime emails wind up "
+"there by mistake."
+msgstr "检查您的电子邮件客户端的收件箱或垃圾邮件文件夹，可能邮件被误判了。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:197
+#, php-format
+msgid ""
+"Have you entered your email correctly?  You have entered %s, if it&#8217;s "
+"incorrect, you will not receive your email."
+msgstr "您输入的邮箱是否正确？您输入的是 %s，如果不正确，将无法收到邮件。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:203
+msgid "Site registration has been disabled."
+msgstr "目前不允许注册站点。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:227
+#, php-format
+msgid "The site %s is yours."
+msgstr "站点 %s 现在是您的啦！"
+
+#: ../includes/class-theme-my-login-ms-signup.php:229
+#, php-format
+msgid ""
+"<a href=\"http://%1$s\">http://%2$s</a> is your new site.  <a href=\"%3$s"
+"\">Log in</a> as &#8220;%4$s&#8221; using your existing password."
+msgstr ""
+"<a href=\"http://%1$s\">http://%2$s</a> 是您的新站的。使用您现有的密码 <a "
+"href=\"%3$s\">登录</a> 为 &#8220;%4$s&#8221;。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:245
+msgid "Sorry, new registrations are not allowed at this time."
+msgstr "抱歉，当前不允许新注册。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:247
+msgid "You are logged in already. No need to register again!"
+msgstr "您已经登录了，无需再注册！"
+
+#: ../includes/class-theme-my-login-ms-signup.php:253
+#, php-format
+msgid ""
+"<p><em>The site you were looking for, <strong>%s</strong> does not exist, "
+"but you can create it now!</em></p>"
+msgstr ""
+"<p><em>您查找的站点 <strong>%s</strong> 不存在，但您可以自己创建一个。</em></"
+"p>"
+
+#: ../includes/class-theme-my-login-ms-signup.php:255
+#, php-format
+msgid ""
+"<p><em>The site you were looking for, <strong>%s</strong>, does not exist.</"
+"em></p>"
+msgstr "<p><em>您查找的站点 <strong>%s</strong> 不存在。</em></p>"
+
+#: ../includes/class-theme-my-login-ms-signup.php:397
+msgid "Activation Key Required"
+msgstr "需要激活密钥"
+
+#: ../includes/class-theme-my-login-ms-signup.php:400
+msgid "Activation Key:"
+msgstr "激活密钥："
+
+#: ../includes/class-theme-my-login-ms-signup.php:416
+#: ../includes/class-theme-my-login-ms-signup.php:436
+msgid "Your account is now active!"
+msgstr "您的账号已激活！"
+
+#: ../includes/class-theme-my-login-ms-signup.php:420
+#, php-format
+msgid ""
+"Your account has been activated. You may now <a href=\"%1$s\">login</a> to "
+"the site using your chosen username of &#8220;%2$s&#8221;.  Please check "
+"your email inbox at %3$s for your password and login instructions. If you do "
+"not receive an email, please check your junk or spam folder. If you still do "
+"not receive an email within an hour, you can <a href=\"%4$s\">reset your "
+"password</a>."
+msgstr ""
+"您的账号已经激活。现在您可以使用用户名 &#8220;%2$s&#8221; 的身份进行 <a href="
+"\"%1$s\">登录</a>。请检查您的 %3$s 的收件箱，查看您的密码和登录说明。如果您没"
+"有收到邮件，请检查邮件客户端或垃圾邮件文件夹。如果一小时之内还没有收到邮件，"
+"您可以 <a href=\"%4$s\">重设您的密码</a>。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:422
+#, php-format
+msgid ""
+"Your site at <a href=\"%1$s\">%2$s</a> is active. You may now log in to your "
+"site using your chosen username of &#8220;%3$s&#8221;.  Please check your "
+"email inbox at %4$s for your password and login instructions.  If you do not "
+"receive an email, please check your junk or spam folder.  If you still do "
+"not receive an email within an hour, you can <a href=\"%5$s\">reset your "
+"password</a>."
+msgstr ""
+"您在 <a href=\"%1$s\">%2$s</a> 的站点已经激活。现在您可以使用用户名 &#8220;"
+"%3$s&#8221; 的身份进行 <a href=\"%1$s\">登录</a>。请检查您的 %4$s 的收件箱，"
+"查看您的密码和登录说明。如果您没有收到邮件，请检查邮件客户端或垃圾邮件文件"
+"夹。如果一小时之内还没有收到邮件，您可以 <a href=\"%5$s\">重设您的密码</a>。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:427
+msgid "An error occurred during the activation"
+msgstr "激活过程中发生了错误"
+
+#: ../includes/class-theme-my-login-ms-signup.php:439
+#: ../templates/ms-signup-user-form.php:14
+msgid "Username:"
+msgstr "用户名："
+
+#: ../includes/class-theme-my-login-ms-signup.php:440
+#: ../modules/custom-passwords/custom-passwords.php:95
+msgid "Password:"
+msgstr "密码："
+
+#: ../includes/class-theme-my-login-ms-signup.php:444
+#, php-format
+msgid ""
+"Your account is now activated. <a href=\"%1$s\">View your site</a> or <a "
+"href=\"%2$s\">Login</a>"
+msgstr ""
+"您的账号已激活。<a href=\"%1$s\">查看您的站点</a> 或 <a href=\"%2$s\">登录</"
+"a>"
+
+#: ../includes/class-theme-my-login-ms-signup.php:446
+#, php-format
+msgid ""
+"Your account is now activated. <a href=\"%1$s\">Login</a> or go back to the "
+"<a href=\"%2$s\">homepage</a>."
+msgstr ""
+"您的账号已经激活。 <a href=\"%1$s\">登录</a> 或返回 <a href=\"%2$s\">首页</"
+"a>。"
+
+#: ../includes/class-theme-my-login-ms-signup.php:476
+msgid "Activate"
+msgstr "激活"
+
+#: ../includes/class-theme-my-login-template.php:150
+#, php-format
+msgid "Welcome, %s"
+msgstr "欢迎， %s"
+
+#: ../includes/class-theme-my-login-template.php:157
+#: ../includes/class-theme-my-login-widget.php:111
+#: ../includes/class-theme-my-login.php:119
+msgid "Register"
+msgstr "注册"
+
+#: ../includes/class-theme-my-login-template.php:163
+#: ../includes/class-theme-my-login-widget.php:112
+#: ../includes/class-theme-my-login.php:120
+msgid "Lost Password"
+msgstr "忘记密码"
+
+#: ../includes/class-theme-my-login-template.php:167
+#: ../includes/class-theme-my-login.php:117
+msgid "Log In"
+msgstr "登录"
+
+#: ../includes/class-theme-my-login-template.php:348
+#: ../modules/custom-user-links/custom-user-links.php:61
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: ../includes/class-theme-my-login-template.php:351
+#: ../modules/custom-user-links/custom-user-links.php:65
+msgid "Profile"
+msgstr "设定"
+
+#: ../includes/class-theme-my-login-template.php:400
+msgid "Register For This Site"
+msgstr "在这个站点注册"
+
+#: ../includes/class-theme-my-login-template.php:403
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr "请输入您的用户名或邮箱地址。您将收到一封创建新密码的邮件。"
+
+#: ../includes/class-theme-my-login-template.php:406
+msgid "Enter your new password below."
+msgstr "在下面输入您的新密码"
+
+#: ../includes/class-theme-my-login-widget.php:24
+msgid "A login form for your blog."
+msgstr "从您博客来的一次登录"
+
+#: ../includes/class-theme-my-login-widget.php:26
+msgid "Theme My Login"
+msgstr "Theme My Login"
+
+#: ../includes/class-theme-my-login-widget.php:110
+msgid "Login"
+msgstr "登录"
+
+#: ../includes/class-theme-my-login-widget.php:115
+msgid "Default Action"
+msgstr "默认操作"
+
+#: ../includes/class-theme-my-login-widget.php:123
+msgid "Show When Logged In"
+msgstr "登录的时候显示"
+
+#: ../includes/class-theme-my-login-widget.php:126
+msgid "Show When Logged Out"
+msgstr "登出时显示"
+
+#: ../includes/class-theme-my-login-widget.php:129
+msgid "Show Title"
+msgstr "显示标题"
+
+#: ../includes/class-theme-my-login-widget.php:132
+msgid "Show Login Link"
+msgstr "显示登录链接"
+
+#: ../includes/class-theme-my-login-widget.php:135
+msgid "Show Register Link"
+msgstr "显示注册链接"
+
+#: ../includes/class-theme-my-login-widget.php:138
+msgid "Show Lost Password Link"
+msgstr "显示丢失的密码链接"
+
+#: ../includes/class-theme-my-login-widget.php:141
+msgid "Show Gravatar"
+msgstr "显示Gravatar头像"
+
+#: ../includes/class-theme-my-login-widget.php:143
+msgid "Gravatar Size"
+msgstr "Gravatar头像大小"
+
+#: ../includes/class-theme-my-login.php:118
+msgid "Log Out"
+msgstr "登出"
+
+#: ../includes/class-theme-my-login.php:121
+#: ../modules/custom-email/admin/custom-email-admin.php:102
+msgid "Reset Password"
+msgstr "重置密码（管理）"
+
+#: ../includes/class-theme-my-login.php:302
+msgid "Sorry, that key does not appear to be valid."
+msgstr "对不起，这个键无效。"
+
+#: ../includes/class-theme-my-login.php:317
+msgid "The passwords do not match."
+msgstr "密码不匹配"
+
+#: ../includes/class-theme-my-login.php:412
+msgid "You are now logged out."
+msgstr "您已经登出"
+
+#: ../includes/class-theme-my-login.php:414
+msgid "User registration is currently not allowed."
+msgstr "目前不允许用户注册"
+
+#: ../includes/class-theme-my-login.php:416
+msgid "Check your e-mail for the confirmation link."
+msgstr "检查您的邮件查看确认链接"
+
+#: ../includes/class-theme-my-login.php:418
+msgid "Your password has been reset."
+msgstr "您的密码已被重设。"
+
+#: ../includes/class-theme-my-login.php:420
+msgid "Registration complete. Please check your e-mail."
+msgstr "注册完成。请检查您的邮件。"
+
+#: ../includes/class-theme-my-login.php:422
+msgid "Your session has expired. Please log-in again."
+msgstr "您的会话已过期。请再次登录。"
+
+#: ../includes/class-theme-my-login.php:424
+msgid ""
+"<strong>You have successfully updated WordPress!</strong> Please log back in "
+"to experience the awesomeness."
+msgstr ""
+"<strong>您已经成功更新 WordPress！</strong>请重新登录来体验迷人的功能。"
+
+#: ../includes/class-theme-my-login.php:426
+msgid "Please log in to continue."
+msgstr "请登录后才能继续。"
+
+#: ../includes/class-theme-my-login.php:1007
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr "<strong>错误</strong>："
+
+#: ../includes/class-theme-my-login.php:1011
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr "<strong>错误</strong>：没有用户注册过这个邮件地址"
+
+#: ../includes/class-theme-my-login.php:1023
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr "<strong>错误</strong>：不允许的用户名或电子邮件"
+
+#: ../includes/class-theme-my-login.php:1037
+msgid "Password reset is not allowed for this user"
+msgstr "这个用户不允许重置密码"
+
+#: ../includes/class-theme-my-login.php:1049
+msgid "Someone requested that the password be reset for the following account:"
+msgstr "有人要求为下面的账号重置密码："
+
+#: ../includes/class-theme-my-login.php:1051
+#: ../modules/custom-email/custom-email.php:809
+#: ../modules/custom-email/custom-email.php:826
+#: ../modules/user-moderation/user-moderation.php:480
+#: ../modules/user-moderation/admin/user-moderation-admin.php:376
+#, php-format
+msgid "Username: %s"
+msgstr "用户名： %s"
+
+#: ../includes/class-theme-my-login.php:1052
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "如果这是误操作，请忽略该邮件，一切都不会发生。"
+
+#: ../includes/class-theme-my-login.php:1053
+msgid "To reset your password, visit the following address:"
+msgstr "要重置您的密码，请访问下面的地址："
+
+#: ../includes/class-theme-my-login.php:1064
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] 密码重置"
+
+#: ../includes/class-theme-my-login.php:1070
+#: ../modules/user-moderation/admin/user-moderation-admin.php:252
+#: ../modules/user-moderation/admin/user-moderation-admin.php:386
+#: ../modules/user-moderation/admin/user-moderation-admin.php:425
+msgid "The e-mail could not be sent."
+msgstr "邮件无法发送"
+
+#: ../includes/class-theme-my-login.php:1070
+#: ../modules/user-moderation/admin/user-moderation-admin.php:252
+#: ../modules/user-moderation/admin/user-moderation-admin.php:386
+#: ../modules/user-moderation/admin/user-moderation-admin.php:425
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr "可能的原因：您的主机可能禁止了mail()函数"
+
+#: ../includes/class-theme-my-login.php:1093
+#: ../includes/class-theme-my-login.php:1096
+#: ../includes/class-theme-my-login.php:1101
+#: ../modules/security/security.php:180 ../modules/security/security.php:183
+#: ../modules/security/security.php:186 ../modules/security/security.php:189
+#: ../modules/user-moderation/user-moderation.php:354
+#: ../modules/user-moderation/user-moderation.php:357
+#: ../modules/user-moderation/user-moderation.php:362
+msgid "Invalid key"
+msgstr "无用的键"
+
+#: ../includes/class-theme-my-login.php:1141
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>错误</strong>：请输入一个用户名"
+
+#: ../includes/class-theme-my-login.php:1143
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+"<strong>错误</strong>：该用户名无效，因为它包含了非法字符。请输入一个有效的用"
+"户名。"
+
+#: ../includes/class-theme-my-login.php:1146
+msgid ""
+"<strong>ERROR</strong>: This username is already registered, please choose "
+"another one."
+msgstr "<strong>错误</strong>：这个用户已经注册过了，请重新选择一个。"
+
+#: ../includes/class-theme-my-login.php:1151
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>错误</strong>：请输入您的电子邮件地址"
+
+#: ../includes/class-theme-my-login.php:1153
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>错误</strong>：邮件地址错误"
+
+#: ../includes/class-theme-my-login.php:1156
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr "<strong>错误</strong>这个邮箱已经注册过了，请重新选择一个。"
+
+#: ../includes/class-theme-my-login.php:1169
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
+"href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+"<strong>错误</strong>: 不能注册... 请联系 <a href=\"mailto:%s\">网站管理员</"
+"a> !"
+
+#: ../modules/custom-email/custom-email.php:808
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr "有新用户在您的站点上注册 %s："
+
+#: ../modules/custom-email/custom-email.php:810
+#: ../modules/user-moderation/user-moderation.php:481
+#, php-format
+msgid "E-mail: %s"
+msgstr "邮箱：%s"
+
+#: ../modules/custom-email/custom-email.php:812
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] 新用户注册"
+
+#: ../modules/custom-email/custom-email.php:827
+#: ../modules/user-moderation/admin/user-moderation-admin.php:377
+#, php-format
+msgid "Password: %s"
+msgstr "密码：%s"
+
+#: ../modules/custom-email/custom-email.php:830
+#, php-format
+msgid "[%s] Your username and password"
+msgstr "[%s] 您的用户名和密码"
+
+#: ../modules/custom-email/custom-email.php:862
+#, php-format
+msgid "[%s] Password Lost/Changed"
+msgstr "[%s] 密码丢失/改变"
+
+#: ../modules/custom-email/custom-email.php:863
+#, php-format
+msgid "Password Lost and Changed for user: %s"
+msgstr "密码丢失和更改的用户：%s"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:92
+msgid "Theme My Login Custom E-mail Settings"
+msgstr "Theme My Login 自定义邮件设置"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:93
+#: ../templates/profile-form.php:93 ../templates/register-form.php:17
+msgid "E-mail"
+msgstr "邮件"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:99
+msgid "New User"
+msgstr "新用户"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:100
+msgid "New User Admin"
+msgstr "新用户管理"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:101
+msgid "Retrieve Password"
+msgstr "找回密码"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:106
+msgid "User Activation"
+msgstr "用户激活"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:107
+msgid "User Approval"
+msgstr "用户批准"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:108
+msgid "User Approval Admin"
+msgstr "用户批准（管理）"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:109
+msgid "User Denial"
+msgstr "用户拒绝"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:179
+msgid "This e-mail will be sent to a new user upon registration."
+msgstr "该邮件将发送给新注册的用户。"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:180
+#: ../modules/custom-email/admin/custom-email-admin.php:439
+msgid ""
+"Please be sure to include the variable %user_pass% if using default "
+"passwords or else the user will not know their password!"
+msgstr ""
+"如果使用默认密码，请务必包含变量 %user_pass% ，否则用户将不知道自己的密码！"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:181
+#: ../modules/custom-email/admin/custom-email-admin.php:228
+#: ../modules/custom-email/admin/custom-email-admin.php:286
+#: ../modules/custom-email/admin/custom-email-admin.php:333
+#: ../modules/custom-email/admin/custom-email-admin.php:392
+#: ../modules/custom-email/admin/custom-email-admin.php:440
+#: ../modules/custom-email/admin/custom-email-admin.php:487
+#: ../modules/custom-email/admin/custom-email-admin.php:545
+msgid "If any field is left empty, the default will be used instead."
+msgstr "如果任何字段留空，将使用默认设置。"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:185
+#: ../modules/custom-email/admin/custom-email-admin.php:236
+#: ../modules/custom-email/admin/custom-email-admin.php:290
+#: ../modules/custom-email/admin/custom-email-admin.php:341
+#: ../modules/custom-email/admin/custom-email-admin.php:396
+#: ../modules/custom-email/admin/custom-email-admin.php:444
+#: ../modules/custom-email/admin/custom-email-admin.php:495
+#: ../modules/custom-email/admin/custom-email-admin.php:549
+msgid "From Name"
+msgstr "发件名字"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:189
+#: ../modules/custom-email/admin/custom-email-admin.php:240
+#: ../modules/custom-email/admin/custom-email-admin.php:294
+#: ../modules/custom-email/admin/custom-email-admin.php:345
+#: ../modules/custom-email/admin/custom-email-admin.php:400
+#: ../modules/custom-email/admin/custom-email-admin.php:448
+#: ../modules/custom-email/admin/custom-email-admin.php:499
+#: ../modules/custom-email/admin/custom-email-admin.php:553
+msgid "From E-mail"
+msgstr "发件邮箱"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:193
+#: ../modules/custom-email/admin/custom-email-admin.php:244
+#: ../modules/custom-email/admin/custom-email-admin.php:298
+#: ../modules/custom-email/admin/custom-email-admin.php:349
+#: ../modules/custom-email/admin/custom-email-admin.php:404
+#: ../modules/custom-email/admin/custom-email-admin.php:452
+#: ../modules/custom-email/admin/custom-email-admin.php:503
+#: ../modules/custom-email/admin/custom-email-admin.php:557
+msgid "E-mail Format"
+msgstr "邮件格式"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:196
+#: ../modules/custom-email/admin/custom-email-admin.php:247
+#: ../modules/custom-email/admin/custom-email-admin.php:301
+#: ../modules/custom-email/admin/custom-email-admin.php:352
+#: ../modules/custom-email/admin/custom-email-admin.php:407
+#: ../modules/custom-email/admin/custom-email-admin.php:455
+#: ../modules/custom-email/admin/custom-email-admin.php:506
+#: ../modules/custom-email/admin/custom-email-admin.php:560
+msgid "Plain Text"
+msgstr "纯文本"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:197
+#: ../modules/custom-email/admin/custom-email-admin.php:248
+#: ../modules/custom-email/admin/custom-email-admin.php:302
+#: ../modules/custom-email/admin/custom-email-admin.php:353
+#: ../modules/custom-email/admin/custom-email-admin.php:408
+#: ../modules/custom-email/admin/custom-email-admin.php:456
+#: ../modules/custom-email/admin/custom-email-admin.php:507
+#: ../modules/custom-email/admin/custom-email-admin.php:561
+msgid "HTML"
+msgstr "HTML"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:202
+#: ../modules/custom-email/admin/custom-email-admin.php:252
+#: ../modules/custom-email/admin/custom-email-admin.php:307
+#: ../modules/custom-email/admin/custom-email-admin.php:358
+#: ../modules/custom-email/admin/custom-email-admin.php:413
+#: ../modules/custom-email/admin/custom-email-admin.php:461
+#: ../modules/custom-email/admin/custom-email-admin.php:512
+#: ../modules/custom-email/admin/custom-email-admin.php:566
+msgid "Subject"
+msgstr "邮件主题"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:206
+#: ../modules/custom-email/admin/custom-email-admin.php:256
+#: ../modules/custom-email/admin/custom-email-admin.php:311
+#: ../modules/custom-email/admin/custom-email-admin.php:362
+#: ../modules/custom-email/admin/custom-email-admin.php:417
+#: ../modules/custom-email/admin/custom-email-admin.php:465
+#: ../modules/custom-email/admin/custom-email-admin.php:516
+#: ../modules/custom-email/admin/custom-email-admin.php:570
+msgid "Message"
+msgstr "邮件内容"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:208
+#: ../modules/custom-email/admin/custom-email-admin.php:258
+#: ../modules/custom-email/admin/custom-email-admin.php:313
+#: ../modules/custom-email/admin/custom-email-admin.php:364
+#: ../modules/custom-email/admin/custom-email-admin.php:419
+#: ../modules/custom-email/admin/custom-email-admin.php:467
+#: ../modules/custom-email/admin/custom-email-admin.php:518
+#: ../modules/custom-email/admin/custom-email-admin.php:572
+msgid "Available Variables"
+msgstr "可用变量"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:227
+msgid ""
+"This e-mail will be sent to the e-mail address or addresses (multiple "
+"addresses may be separated by commas) specified below, upon new user "
+"registration."
+msgstr ""
+"当有新用户注册时，该邮件将发送到指定的管理员邮箱（多个邮箱请使用英文逗号隔"
+"开）"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:232
+#: ../modules/custom-email/admin/custom-email-admin.php:337
+#: ../modules/custom-email/admin/custom-email-admin.php:491
+msgid "To"
+msgstr "收件人"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:266
+#: ../modules/custom-email/admin/custom-email-admin.php:372
+#: ../modules/custom-email/admin/custom-email-admin.php:526
+msgid "Disable Admin Notification"
+msgstr "禁止管理员通知"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:284
+msgid ""
+"This e-mail will be sent to a user when they attempt to recover their "
+"password."
+msgstr "该邮件将发送给需要重置密码的用户。"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:285
+msgid ""
+"Please be sure to include the variable %reseturl% or else the user will not "
+"be able to recover their password!"
+msgstr "请务必包含变量 %reseturl% ，否则用户将无法重置密码。"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:332
+msgid ""
+"This e-mail will be sent to the e-mail address or addresses (multiple "
+"addresses may be separated by commas) specified below, upon user password "
+"change."
+msgstr ""
+"用户的密码更改后，该邮件将发送给下面指定的管理员邮箱地址（多个邮箱请用英文逗"
+"号隔开）。"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:390
+msgid ""
+"This e-mail will be sent to a new user upon registration when \"E-mail "
+"Confirmation\" is checked for \"User Moderation\"."
+msgstr "当勾选了 \"用户审核\" 中的 \"邮件确认\"，该邮件将发送给新注册的用户。"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:391
+msgid ""
+"Please be sure to include the variable %activateurl% or else the user will "
+"not be able to activate their account!"
+msgstr "请务必包含变量 %activateurl% 否者用户将无法激活他们的账号！"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:438
+msgid ""
+"This e-mail will be sent to a new user upon admin approval when \"Admin "
+"Approval\" is checked for \"User Moderation\"."
+msgstr ""
+"当勾选了 \"用户审核\" 中的  \"管理员批准\"，该邮件将发送给需要管理员审核的新"
+"用户。"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:486
+msgid ""
+"This e-mail will be sent to the e-mail address or addresses (multiple "
+"addresses may be separated by commas) specified below upon user registration "
+"when \"Admin Approval\" is checked for \"User Moderation\"."
+msgstr ""
+"当勾选了 \"用户审核\" 中的  \"管理员批准\"，一旦有用户注册，该邮件将发送给指"
+"定的管理员邮箱地址（多个邮箱请使用英文逗号隔开）。"
+
+#: ../modules/custom-email/admin/custom-email-admin.php:544
+msgid ""
+"This e-mail will be sent to a user who is deleted/denied when \"Admin "
+"Approval\" is checked for \"User Moderation\" and the user's role is "
+"\"Pending\"."
+msgstr ""
+"当勾选了 \"用户审核\" 中的  \"管理员批准\"，该邮件将发送给那些被删除/被拒绝的"
+"待审核的用户。"
+
+#: ../modules/custom-passwords/custom-passwords.php:68
+#: ../templates/login-form.php:16
+msgid "Password"
+msgstr "密码"
+
+#: ../modules/custom-passwords/custom-passwords.php:70
+msgid "Confirm Password"
+msgstr "确认密码"
+
+#: ../modules/custom-passwords/custom-passwords.php:100
+msgid "(Must be at least 6 characters.)"
+msgstr "（至少为 6 个字符）"
+
+#: ../modules/custom-passwords/custom-passwords.php:102
+msgid "Confirm Password:"
+msgstr "确认密码："
+
+#: ../modules/custom-passwords/custom-passwords.php:104
+msgid "Confirm that you've typed your password correctly."
+msgstr "确认您输入正确的密码。"
+
+#: ../modules/custom-passwords/custom-passwords.php:141
+msgid "<strong>ERROR</strong>: Please enter your password twice."
+msgstr "<strong>错误</strong>：请输入两次您的密码。"
+
+#: ../modules/custom-passwords/custom-passwords.php:145
+msgid "<strong>ERROR</strong>: Passwords may not contain the character \"\\\"."
+msgstr "<strong>错误</strong>：密码不能包含字符\"\\\"。"
+
+#: ../modules/custom-passwords/custom-passwords.php:149
+msgid ""
+"<strong>ERROR</strong>: Please enter the same password in the two password "
+"fields."
+msgstr "<strong>错误</strong>：请输入两次一样的密码。"
+
+#: ../modules/custom-passwords/custom-passwords.php:153
+msgid ""
+"<strong>ERROR</strong>: Your password must be at least 6 characters in "
+"length."
+msgstr "<strong>错误</strong>：您的密码必须至少包含6个字符"
+
+#: ../modules/custom-passwords/custom-passwords.php:282
+msgid "Registration complete. You may now log in."
+msgstr "注册完成。您现在可以登录了。"
+
+#: ../modules/custom-redirection/admin/custom-redirection-admin.php:86
+msgid "Theme My Login Custom Redirection Settings"
+msgstr "Theme My Login 自定义重定向设置"
+
+#: ../modules/custom-redirection/admin/custom-redirection-admin.php:87
+msgid "Redirection"
+msgstr "重定向"
+
+#: ../modules/custom-redirection/admin/custom-redirection-admin.php:167
+msgid "Log in"
+msgstr "登录"
+
+#: ../modules/custom-redirection/admin/custom-redirection-admin.php:169
+#: ../modules/custom-redirection/admin/custom-redirection-admin.php:183
+msgid "Default"
+msgstr "默认"
+
+#: ../modules/custom-redirection/admin/custom-redirection-admin.php:170
+msgid ""
+"Check this option to send the user to their WordPress Dashboard/Profile."
+msgstr "选择该项将重定向用户到他们的 WordPress 仪表盘/个人资料。"
+
+#: ../modules/custom-redirection/admin/custom-redirection-admin.php:172
+#: ../modules/custom-redirection/admin/custom-redirection-admin.php:186
+msgid "Referer"
+msgstr "之前的"
+
+#: ../modules/custom-redirection/admin/custom-redirection-admin.php:173
+msgid ""
+"Check this option to send the user back to the page they were visiting "
+"before logging in."
+msgstr "选择该项将重定向用户返回登录前访问的页面。"
+
+#: ../modules/custom-redirection/admin/custom-redirection-admin.php:177
+#: ../modules/custom-redirection/admin/custom-redirection-admin.php:191
+msgid ""
+"Check this option to send the user to a custom location, specified by the "
+"textbox above."
+msgstr "选择该项将重定向用户到上面所填写的地址。"
+
+#: ../modules/custom-redirection/admin/custom-redirection-admin.php:181
+msgid "Log out"
+msgstr "登出"
+
+#: ../modules/custom-redirection/admin/custom-redirection-admin.php:184
+msgid ""
+"Check this option to send the user to the log in page, displaying a message "
+"that they have successfully logged out."
+msgstr "选择该项将重定向用户到登录页面，同时显示他们已经成功登出的提示信息。"
+
+#: ../modules/custom-redirection/admin/custom-redirection-admin.php:187
+msgid ""
+"Check this option to send the user back to the page they were visiting "
+"before logging out. (Note: If the previous page being visited was an admin "
+"page, this can have unexpected results.)"
+msgstr ""
+"选择该项将重定向用户返回登出前所访问的页面。（注意：如果之前访问的是后台管理"
+"页面，这个将是未知的结果）"
+
+#: ../modules/custom-user-links/admin/custom-user-links-admin.php:94
+msgid "Theme My Login Custom User Links Settings"
+msgstr "Theme My Login 用户链接设置"
+
+#: ../modules/custom-user-links/admin/custom-user-links-admin.php:95
+msgid "User Links"
+msgstr "用户链接"
+
+#: ../modules/custom-user-links/admin/custom-user-links-admin.php:182
+#: ../modules/custom-user-links/admin/custom-user-links-admin.php:232
+msgid "Title"
+msgstr "标题"
+
+#: ../modules/custom-user-links/admin/custom-user-links-admin.php:183
+#: ../modules/custom-user-links/admin/custom-user-links-admin.php:233
+msgid "URL"
+msgstr "URL"
+
+#: ../modules/custom-user-links/admin/custom-user-links-admin.php:206
+msgid "Add Link"
+msgstr "添加链接"
+
+#: ../modules/custom-user-links/admin/custom-user-links-admin.php:236
+msgid "Delete"
+msgstr "删除"
+
+#: ../modules/custom-user-links/admin/custom-user-links-admin.php:238
+msgid "Update"
+msgstr "升级"
+
+#: ../modules/recaptcha/recaptcha.php:128
+msgid "<strong>ERROR</strong>: Invalid reCAPTCHA private key."
+msgstr "<strong>错误</strong>：无效的验证码（reCAPTCHA）私人密钥。"
+
+#: ../modules/recaptcha/recaptcha.php:131
+msgid "<strong>ERROR</strong>: Invalid reCAPTCHA challenge parameter."
+msgstr "<strong>错误</strong>：无效的验证码（reCAPTCHA ）参数。"
+
+#: ../modules/recaptcha/recaptcha.php:134
+msgid "<strong>ERROR</strong>: Incorrect captcha code."
+msgstr "<strong>错误</strong>：图形验证码不正确。"
+
+#: ../modules/recaptcha/recaptcha.php:138
+msgid "<strong>ERROR</strong>: Unable to reach the reCAPTCHA server."
+msgstr "<strong>错误</strong>：无法访问到 reCAPTCHA 服务器。"
+
+#: ../modules/recaptcha/admin/recaptcha-admin.php:89
+#: ../modules/recaptcha/admin/recaptcha-admin.php:141
+msgid "Theme My Login reCAPTCHA Settings"
+msgstr "Theme My Login reCAPTCHA设置"
+
+#: ../modules/recaptcha/admin/recaptcha-admin.php:90
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: ../modules/recaptcha/admin/recaptcha-admin.php:98
+msgid "Public Key"
+msgstr "公开密钥"
+
+#: ../modules/recaptcha/admin/recaptcha-admin.php:99
+msgid "Private Key"
+msgstr "私人密钥"
+
+#: ../modules/recaptcha/admin/recaptcha-admin.php:100
+msgid "Theme"
+msgstr "主题"
+
+#: ../modules/recaptcha/admin/recaptcha-admin.php:123
+msgctxt "recaptcha theme"
+msgid "Red (Default)"
+msgstr "红色（默认）"
+
+#: ../modules/recaptcha/admin/recaptcha-admin.php:124
+msgctxt "recaptcha theme"
+msgid "White"
+msgstr "白色"
+
+#: ../modules/recaptcha/admin/recaptcha-admin.php:125
+msgctxt "recaptcha theme"
+msgid "Black Glass"
+msgstr "黑色玻璃"
+
+#: ../modules/recaptcha/admin/recaptcha-admin.php:126
+msgctxt "recaptcha theme"
+msgid "Clean"
+msgstr "简洁"
+
+#: ../modules/security/security.php:162
+msgid "Your account has been unlocked. You may now log in."
+msgstr "您的账号已经解锁。您现在可以登录了。"
+
+#: ../modules/security/security.php:221 ../modules/security/security.php:244
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: This account has been locked because of too many "
+"failed login attempts. You may try again in %s."
+msgstr ""
+"<strong>错误</strong>：该账号由于多次登录失败，已被锁定！请在 %s 之后再试。"
+
+#: ../modules/security/security.php:223
+msgid "<strong>ERROR</strong>: This account has been locked."
+msgstr "<strong>错误</strong>：该账号已被锁定。"
+
+#: ../modules/security/security.php:288
+msgid "Failed Login Attempts"
+msgstr "失败的登录尝试"
+
+#: ../modules/security/security.php:292
+msgid "IP Address"
+msgstr "IP地址"
+
+#: ../modules/security/security.php:293
+msgid "Date"
+msgstr "日期"
+
+#: ../modules/security/security.php:296 ../modules/security/security.php:599
+msgid "Y/m/d g:i:s A"
+msgstr "Y/m/d g:i:s A"
+
+#: ../modules/security/security.php:301
+#, php-format
+msgid "%s ago"
+msgstr "%s 之前"
+
+#: ../modules/security/security.php:303
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: ../modules/security/security.php:591
+#, php-format
+msgid "[%s] Account Locked"
+msgstr "[%s] 账号锁定"
+
+#: ../modules/security/security.php:592
+msgid ""
+"For your security, your account has been locked because of too many failed "
+"login attempts. To unlock your account please click the following link: "
+msgstr ""
+"出于安全原因，您的账号由于多次登录失败，已被锁定。要解锁账号，请访问下面的链"
+"接："
+
+#: ../modules/security/security.php:597
+msgid "The following attempts resulted in the lock:"
+msgstr "以下锁定的结果："
+
+#: ../modules/security/admin/security-admin.php:89
+#: ../modules/security/admin/security-admin.php:121
+msgid "Theme My Login Security Settings"
+msgstr "Theme My Login 安全设置"
+
+#: ../modules/security/admin/security-admin.php:90
+msgid "Security"
+msgstr "安全"
+
+#: ../modules/security/admin/security-admin.php:98
+msgid "Private Site"
+msgstr "私人站点"
+
+#: ../modules/security/admin/security-admin.php:99
+msgid "Private Login"
+msgstr "私人登录"
+
+#: ../modules/security/admin/security-admin.php:100
+msgid "Login Attempts"
+msgstr "登录尝试"
+
+#: ../modules/security/admin/security-admin.php:135
+msgid "Require users to be logged in to view site"
+msgstr "要求用户登录后才能查看站点"
+
+#: ../modules/security/admin/security-admin.php:148
+msgid "Disable <tt>wp-login.php</tt>"
+msgstr "禁用 <tt>wp-login.php</tt>"
+
+#: ../modules/security/admin/security-admin.php:161
+msgid "minute(s)"
+msgstr "分钟"
+
+#: ../modules/security/admin/security-admin.php:162
+msgid "hour(s)"
+msgstr "小时"
+
+#: ../modules/security/admin/security-admin.php:163
+msgid "day(s)"
+msgstr "天"
+
+#: ../modules/security/admin/security-admin.php:190
+#, php-format
+msgid ""
+"After %1$s failed login attempts within %2$s %3$s, lockout the account for "
+"%4$s %5$s."
+msgstr "在 %2$s %3$s 内登录失败 %1$s 次后，锁定账号 %4$s %5$s"
+
+#: ../modules/security/admin/security-admin.php:241
+#: ../modules/security/admin/security-admin.php:244
+#: ../modules/user-moderation/admin/user-moderation-admin.php:232
+#: ../modules/user-moderation/admin/user-moderation-admin.php:242
+msgid "You can&#8217;t edit that user."
+msgstr "您不能编辑这个用户"
+
+#: ../modules/security/admin/security-admin.php:276
+msgid "User locked."
+msgstr "用户已被锁定。"
+
+#: ../modules/security/admin/security-admin.php:278
+msgid "User unlocked."
+msgstr "用户已解锁。"
+
+#: ../modules/security/admin/security-admin.php:301
+msgid "Unlock"
+msgstr "解锁"
+
+#: ../modules/security/admin/security-admin.php:303
+msgid "Lock"
+msgstr "锁定"
+
+#: ../modules/themed-profiles/themed-profiles.php:223
+msgid "You do not have permission to edit this user."
+msgstr "您不被许可编辑这个用户"
+
+#: ../modules/themed-profiles/themed-profiles.php:260
+msgid "Profile updated."
+msgstr "个人资料已更新"
+
+#: ../modules/themed-profiles/admin/themed-profiles-admin.php:73
+msgid "Your Profile"
+msgstr "您的个人资料"
+
+#: ../modules/themed-profiles/admin/themed-profiles-admin.php:108
+#: ../modules/themed-profiles/admin/themed-profiles-admin.php:143
+msgid "Theme My Login Themed Profiles Settings"
+msgstr "Theme My Login Themed Profiles 设置"
+
+#: ../modules/themed-profiles/admin/themed-profiles-admin.php:109
+#: ../modules/themed-profiles/admin/themed-profiles-admin.php:117
+msgid "Themed Profiles"
+msgstr "Themed Profiles"
+
+#: ../modules/themed-profiles/admin/themed-profiles-admin.php:118
+msgid "Restrict Admin Access"
+msgstr "限制后台访问"
+
+#: ../modules/user-moderation/user-moderation.php:157
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: You have not yet confirmed your e-mail address. <a "
+"href=\"%s\">Resend activation</a>?"
+msgstr ""
+"<strong>错误</strong>：您还没有确认您的邮箱地址。<a href=\"%s\">重发激活邮件"
+"</a>？"
+
+#: ../modules/user-moderation/user-moderation.php:161
+msgid "<strong>ERROR</strong>: Your registration has not yet been approved."
+msgstr "<strong>错误</strong>：您的注册没有通过。"
+
+#: ../modules/user-moderation/user-moderation.php:200
+msgid ""
+"Your registration was successful but you must now confirm your email address "
+"before you can log in. Please check your email and click on the link "
+"provided."
+msgstr ""
+"您已注册成功，但是在登录前您必须确认您的邮箱地址。请检查您的邮件并且点击确认"
+"链接。"
+
+#: ../modules/user-moderation/user-moderation.php:203
+msgid ""
+"Your registration was successful but you must now be approved by an "
+"administrator before you can log in. You will be notified by e-mail once "
+"your account has been reviewed."
+msgstr ""
+"您的注册已经成功，但是您必须联系管理员审批才能登录。如果你的账号被审批通过，"
+"我们会通过邮件通知你。"
+
+#: ../modules/user-moderation/user-moderation.php:212
+msgid "Your account has been activated. You may now log in."
+msgstr "您的账号已经激活。您现在可以登录了。"
+
+#: ../modules/user-moderation/user-moderation.php:214
+msgid ""
+"Your account has been activated. Please check your e-mail for your password."
+msgstr "您的账号已经激活。请检查您的邮件查看密码。"
+
+#: ../modules/user-moderation/user-moderation.php:217
+msgid "<strong>ERROR</strong>: Sorry, that key does not appear to be valid."
+msgstr "<strong>错误</strong>：对不起，参数不允许。"
+
+#: ../modules/user-moderation/user-moderation.php:225
+msgid "<strong>ERROR</strong>: Sorry, the activation e-mail could not be sent."
+msgstr "<strong>错误</strong>：抱歉，激活邮件无法发送。"
+
+#: ../modules/user-moderation/user-moderation.php:228
+msgid ""
+"The activation e-mail has been sent to the e-mail address with which you "
+"registered. Please check your email and click on the link provided."
+msgstr ""
+"激活邮件已经发送到您注册时的邮箱。请检查您的邮件，点击邮件中的激活链接。"
+
+#: ../modules/user-moderation/user-moderation.php:443
+#, php-format
+msgid "[%s] Activate Your Account"
+msgstr "[%s] 激活您的账号"
+
+#: ../modules/user-moderation/user-moderation.php:444
+#, php-format
+msgid ""
+"Thanks for registering at %s! To complete the activation of your account "
+"please click the following link: "
+msgstr "感谢在 %s 注册！为了激活您的账号，请点击下面的链接："
+
+#: ../modules/user-moderation/user-moderation.php:477
+#, php-format
+msgid "[%s] New User Awaiting Approval"
+msgstr "[%s] 新用户等待审核"
+
+#: ../modules/user-moderation/user-moderation.php:479
+#, php-format
+msgid "New user requires approval on your blog %s:"
+msgstr "您的博客有新用户需要批准 %s:"
+
+#: ../modules/user-moderation/user-moderation.php:482
+msgid "To approve or deny this user:"
+msgstr "批准或拒绝这个用户："
+
+#: ../modules/user-moderation/admin/user-moderation-admin.php:86
+msgid "User Moderation is not currently compatible with multisite."
+msgstr "用户审核功能当前不兼容多站点模式。"
+
+#: ../modules/user-moderation/admin/user-moderation-admin.php:136
+#: ../modules/user-moderation/admin/user-moderation-admin.php:168
+msgid "Theme My Login User Moderation Settings"
+msgstr "Theme My Login 审核设置"
+
+#: ../modules/user-moderation/admin/user-moderation-admin.php:137
+msgid "Moderation"
+msgstr "用户审核"
+
+#: ../modules/user-moderation/admin/user-moderation-admin.php:145
+msgid "Moderation Type"
+msgstr "审核类型"
+
+#: ../modules/user-moderation/admin/user-moderation-admin.php:182
+msgid "None"
+msgstr "无"
+
+#: ../modules/user-moderation/admin/user-moderation-admin.php:183
+msgid "Check this option to require no moderation."
+msgstr "选择该项将不用审核用户。"
+
+#: ../modules/user-moderation/admin/user-moderation-admin.php:186
+msgid "E-mail Confirmation"
+msgstr "邮箱确认"
+
+#: ../modules/user-moderation/admin/user-moderation-admin.php:187
+msgid ""
+"Check this option to require new users to confirm their e-mail address "
+"before they may log in."
+msgstr "选择该项将要求用户确认他们的邮箱地址，然后才能登录。"
+
+#: ../modules/user-moderation/admin/user-moderation-admin.php:190
+msgid "Admin Approval"
+msgstr "管理员批准"
+
+#: ../modules/user-moderation/admin/user-moderation-admin.php:191
+msgid ""
+"Check this option to require new users to be approved by an administrator "
+"before they may log in."
+msgstr "选择该项将要求用户必须在管理员审核批准后才能登录。"
+
+#: ../modules/user-moderation/admin/user-moderation-admin.php:275
+msgid "User approved."
+msgstr "用户已批准。"
+
+#: ../modules/user-moderation/admin/user-moderation-admin.php:277
+msgid "Activation sent."
+msgstr "激活已重发。"
+
+#: ../modules/user-moderation/admin/user-moderation-admin.php:308
+msgid "Resend Activation"
+msgstr "重发激活"
+
+#: ../modules/user-moderation/admin/user-moderation-admin.php:318
+msgid "Approve"
+msgstr "用户批准"
+
+#: ../modules/user-moderation/admin/user-moderation-admin.php:375
+#, php-format
+msgid "You have been approved access to %s"
+msgstr "您已被允许使用 %s"
+
+#: ../modules/user-moderation/admin/user-moderation-admin.php:380
+#, php-format
+msgid "[%s] Registration Approved"
+msgstr "[%s] 注册通过"
+
+#: ../modules/user-moderation/admin/user-moderation-admin.php:418
+#, php-format
+msgid "You have been denied access to %s"
+msgstr "您被拒绝使用 %s"
+
+#: ../modules/user-moderation/admin/user-moderation-admin.php:419
+#, php-format
+msgid "[%s] Registration Denied"
+msgstr "[%s] 注册被拒绝"
+
+#: ../templates/login-form.php:12 ../templates/profile-form.php:33
+#: ../templates/register-form.php:12
+msgid "Username"
+msgstr "用户名"
+
+#: ../templates/lostpassword-form.php:12
+msgid "Username or E-mail:"
+msgstr "用户名或电子邮件："
+
+#: ../templates/ms-signup-another-blog-form.php:7
+#, php-format
+msgid "Get <em>another</em> %s site in seconds"
+msgstr "在几秒内获取 <em>另一个</em> %s 站点。"
+
+#: ../templates/ms-signup-another-blog-form.php:10
+msgid "There was a problem, please correct the form below and try again."
+msgstr "出了点小问题，请检查下面的表单，然后再次尝试。"
+
+#: ../templates/ms-signup-another-blog-form.php:13
+#, php-format
+msgid ""
+"Welcome back, %s. By filling out the form below, you can <strong>add another "
+"site to your account</strong>. There is no limit to the number of sites you "
+"can have, so create to your heart&#8217;s content, but write responsibly!"
+msgstr ""
+"欢迎回来，%s。通过填写下面的表单，您可以 <strong>添加其他站点到您的账号中</"
+"strong>。不限制您拥有的站点数量，所以请根据需要创建吧，但是要用心去维护站点"
+"哦！"
+
+#: ../templates/ms-signup-another-blog-form.php:18
+msgid "Sites you are already a member of:"
+msgstr "您已经是以下站点的成员："
+
+#: ../templates/ms-signup-another-blog-form.php:27
+msgid ""
+"If you&#8217;re not going to use a great site domain, leave it for a new "
+"user. Now have at it!"
+msgstr "如果您不打算使用一个伟大的站名域名，请留给其他新用户。现在拥有它！"
+
+#: ../templates/ms-signup-another-blog-form.php:34
+#: ../templates/ms-signup-blog-form.php:15
+msgid "Site Name:"
+msgstr "站点名称："
+
+#: ../templates/ms-signup-another-blog-form.php:36
+#: ../templates/ms-signup-blog-form.php:17
+msgid "Site Domain:"
+msgstr "站点域名："
+
+#: ../templates/ms-signup-another-blog-form.php:53
+#: ../templates/ms-signup-blog-form.php:34
+msgid "sitename"
+msgstr "站点名称"
+
+#: ../templates/ms-signup-another-blog-form.php:55
+#: ../templates/ms-signup-blog-form.php:36
+msgid "domain"
+msgstr "域名"
+
+#: ../templates/ms-signup-another-blog-form.php:56
+#: ../templates/ms-signup-blog-form.php:37
+#, php-format
+msgid "Your address will be %s."
+msgstr "您的地址将会是 %s"
+
+#: ../templates/ms-signup-another-blog-form.php:56
+#: ../templates/ms-signup-blog-form.php:37
+msgid ""
+"Must be at least 4 characters, letters and numbers only. It cannot be "
+"changed, so choose carefully!"
+msgstr "至少 4 个字符，只能是字母和数字。以后无法修改，请小心选择！"
+
+#: ../templates/ms-signup-another-blog-form.php:59
+#: ../templates/ms-signup-blog-form.php:40
+msgid "Site Title:"
+msgstr "站点标题："
+
+#: ../templates/ms-signup-another-blog-form.php:67
+#: ../templates/ms-signup-blog-form.php:48
+msgid "Privacy:"
+msgstr "隐私："
+
+#: ../templates/ms-signup-another-blog-form.php:68
+#: ../templates/ms-signup-blog-form.php:49
+msgid "Allow search engines to index this site."
+msgstr "允许搜索引擎索引这个网站。"
+
+#: ../templates/ms-signup-another-blog-form.php:72
+#: ../templates/ms-signup-blog-form.php:53
+msgid "Yes"
+msgstr "是"
+
+#: ../templates/ms-signup-another-blog-form.php:76
+#: ../templates/ms-signup-blog-form.php:57
+msgid "No"
+msgstr "否"
+
+#: ../templates/ms-signup-user-form.php:7
+#, php-format
+msgid "Get your own %s account in seconds"
+msgstr "在几秒内获取您的 %s 账号"
+
+#: ../templates/ms-signup-user-form.php:20
+msgid "(Must be at least 4 characters, letters and numbers only.)"
+msgstr "（至少 4 个字符，只能是字母和数字）"
+
+#: ../templates/ms-signup-user-form.php:22
+msgid "Email&nbsp;Address:"
+msgstr "邮箱地址："
+
+#: ../templates/ms-signup-user-form.php:28
+msgid ""
+"We send your registration email to this address. (Double-check your email "
+"address before continuing.)"
+msgstr "我们会发送注册邮件到该地址。（请确认您的邮箱地址，然后继续）"
+
+#: ../templates/ms-signup-user-form.php:42
+msgid "Gimme a site!"
+msgstr "注册一个站点。"
+
+#: ../templates/ms-signup-user-form.php:45
+msgid "Just a username, please."
+msgstr "只注册一个用户名。"
+
+#: ../templates/profile-form.php:19
+msgid "Personal Options"
+msgstr "个人设置"
+
+#: ../templates/profile-form.php:29
+msgid "Name"
+msgstr "名字"
+
+#: ../templates/profile-form.php:34
+msgid "Your username cannot be changed."
+msgstr "您的用户名无法更改。"
+
+#: ../templates/profile-form.php:38
+msgid "First Name"
+msgstr "名字"
+
+#: ../templates/profile-form.php:43
+msgid "Last Name"
+msgstr "姓氏"
+
+#: ../templates/profile-form.php:48
+msgid "Nickname"
+msgstr "昵称"
+
+#: ../templates/profile-form.php:48 ../templates/profile-form.php:93
+msgid "(required)"
+msgstr "（必填）"
+
+#: ../templates/profile-form.php:53
+msgid "Display name publicly as"
+msgstr "公开显示为"
+
+#: ../templates/profile-form.php:89
+msgid "Contact Info"
+msgstr "联系信息"
+
+#: ../templates/profile-form.php:98
+msgid "Website"
+msgstr "网站"
+
+#: ../templates/profile-form.php:114
+msgid "About Yourself"
+msgstr "关于您自己"
+
+#: ../templates/profile-form.php:118
+msgid "Biographical Info"
+msgstr "关于信息"
+
+#: ../templates/profile-form.php:120
+msgid ""
+"Share a little biographical information to fill out your profile. This may "
+"be shown publicly."
+msgstr "分享一点关于信息来充实您的个人资料。这可能被公开。"
+
+#: ../templates/profile-form.php:128
+msgid "New Password"
+msgstr "新密码"
+
+#: ../templates/profile-form.php:129
+msgid ""
+"If you would like to change the password type a new one. Otherwise leave "
+"this blank."
+msgstr "如果您想要更改密码请输入一个新的，否则离开这个页面。"
+
+#: ../templates/profile-form.php:130
+msgid "Type your new password again."
+msgstr "重输一遍您的新密码"
+
+#: ../templates/profile-form.php:131 ../templates/resetpass-form.php:21
+msgid "Strength indicator"
+msgstr "强度指示"
+
+#: ../templates/profile-form.php:132 ../templates/resetpass-form.php:23
+msgid ""
+"Hint: The password should be at least seven characters long. To make it "
+"stronger, use upper and lower case letters, numbers and symbols like ! \" ? "
+"$ % ^ &amp; )."
+msgstr ""
+"提示：密码至少需要7个字符。为了使密码更健壮，请使用大小写字母，数字和符号"
+"（如：! \" ? $ % ^ &amp; )"
+
+#: ../templates/register-form.php:23
+msgid "A password will be e-mailed to you."
+msgstr "密码将通过邮件发送给您"
+
+#: ../templates/resetpass-form.php:12
+msgid "New password"
+msgstr "新密码"
+
+#: ../templates/resetpass-form.php:17
+msgid "Confirm new password"
+msgstr "确认密码"
+
+#~ msgid ""
+#~ "<strong>WARNING</strong>: The function <em>wp_new_user_notification</em> "
+#~ "has already been overridden by another plugin. "
+#~ msgstr ""
+#~ "<strong>警告</strong>： The function <em>wp_new_user_notification</em> "
+#~ "has already been overridden by another plugin. "
+
+#~ msgid ""
+#~ "<strong>WARNING</strong>: The function "
+#~ "<em>wp_password_change_notification</em> has already been overridden by "
+#~ "another plugin. "
+#~ msgstr ""
+#~ "<strong>警告</strong>： The function <em>wp_password_change_notification</"
+#~ "em> has already been overridden by another plugin. "
+
+#~ msgid "ERROR: The module \"$module\" could not be activated (%s)."
+#~ msgstr "错误：模块 \"$module\" 不能激活 (%s)."
+
+#~ msgid "One of the plugins is invalid."
+#~ msgstr "个别插件有冲突"
+
+#~ msgid "Invalid plugin path."
+#~ msgstr "错误的插件路径"
+
+#~ msgid "Plugin file does not exist."
+#~ msgstr "插件路径不存在"
+
+#~ msgid "The plugin does not have a valid header."
+#~ msgstr "插件头部无效"
+
+#~ msgid "Page ID"
+#~ msgstr "页面 ID"
+
+#~ msgid "Pagelist"
+#~ msgstr "页面列表"
+
+#~ msgid "Show Page In Pagelist"
+#~ msgstr "在页面列表显示页面"
+
+#~ msgid "Links"
+#~ msgstr "链接"
+
+#~ msgid ""
+#~ "Enable this setting to rewrite links generated by functions like "
+#~ "wp_loginout() and wp_register()."
+#~ msgstr ""
+#~ "Enable this setting to rewrite links generated by functions like "
+#~ "wp_loginout() and wp_register()."
+
+#~ msgid "No modules found."
+#~ msgstr "找不到模块"
+
+#~ msgid "Optimization"
+#~ msgstr "优化"
+
+#~ msgid ""
+#~ "Enable this setting if you wish to use the theme_my_login() template tag. "
+#~ "Otherwise, leave it disabled for optimization purposes."
+#~ msgstr ""
+#~ "允许这个选项如果你希望使用 theme_my_login() 模板标签。为了优化默认禁止。"
+
+#~ msgid "Enable Widget"
+#~ msgstr "允许小工具"
+
+#~ msgid ""
+#~ "Enable this setting if you wish to use the \"Theme My Login\" widget. "
+#~ "Otherwise, leave it disabled for optimization purposes."
+#~ msgstr ""
+#~ "允许这个选项，如果你希望使用 \"Theme My Login\" 小工具。为了优化默认禁止。"
+
+#~ msgid "Basic"
+#~ msgstr "基本"
+
+#~ msgid ""
+#~ "If you like this plugin, please help keep it up to date by <a href="
+#~ "\"http://www.jfarthing.com/donate\">donating through PayPal</a>!"
+#~ msgstr ""
+#~ "如果你喜欢这款插件，请帮助我能够持续升级 <a href=\"http://www.jfarthing."
+#~ "com/donate\">通过PayPal捐助</a>!"
+
+#~ msgid "Save Changes"
+#~ msgstr "保存变更"
+
+#~ msgid "[%s] Your new password"
+#~ msgstr "[%s] 你的新密码"
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: Cookies are blocked or not supported by your "
+#~ "browser. You must <a href='http://www.google.com/cookies.html'>enable "
+#~ "cookies</a> to use WordPress."
+#~ msgstr ""
+#~ "<strong>错误</strong>: Cookies被禁止或者不支持你的浏览器。你必须 <a "
+#~ "href='http://www.google.com/cookies.html'>启用cookies</a> 来使用WordPress"
+
+#~ msgid "Check your e-mail for your new password."
+#~ msgstr "检查你的邮件查看你的新密码"
+
+#~ msgid "Remember Me"
+#~ msgstr "记住我"
+
+#~ msgid "Get New Password"
+#~ msgstr "获取一个新的密码"
+
+#~ msgid "Allow Registration"
+#~ msgstr "允许注册"
+
+#~ msgid "Allow Password Recovery"
+#~ msgstr "允许重获密码"
+
+#~ msgid "Please enter a new password."
+#~ msgstr "请输入一个新的密码"
+
+#~ msgid "New Password:"
+#~ msgstr "新密码："
+
+#~ msgid "Change Password"
+#~ msgstr "改变密码"
+
+#~ msgid ""
+#~ "Please enter your username or e-mail address. You will recieve an e-mail "
+#~ "with a link to reset your password."
+#~ msgstr "请输入你的用户名和电子邮件地址。你会接受到一封新的密码重置邮件。"
+
+#~ msgid "Add New link:"
+#~ msgstr "添加一个新链接："
+
+#~ msgid "Additional Capabilities"
+#~ msgstr "额外能力"
+
+#~ msgid "Update Profile"
+#~ msgstr "升级设定"
+
+#~ msgid "User Moderation"
+#~ msgstr "用户缓和"
+
+#~ msgid "Same as when you signed up."
+#~ msgstr "同样当你注册的时候。"

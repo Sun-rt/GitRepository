@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/circlefly/!svn/ver/2/1/lib/Cake/Test/Case/Network/Email
+END
+CakeEmailTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/circlefly/!svn/ver/2/1/lib/Cake/Test/Case/Network/Email/CakeEmailTest.php
+END
+SmtpTransportTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/circlefly/!svn/ver/2/1/lib/Cake/Test/Case/Network/Email/SmtpTransportTest.php
+END
+DebugTransportTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/circlefly/!svn/ver/2/1/lib/Cake/Test/Case/Network/Email/DebugTransportTest.php
+END

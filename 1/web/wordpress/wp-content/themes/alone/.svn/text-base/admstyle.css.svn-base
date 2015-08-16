@@ -1,0 +1,65 @@
+﻿body,textarea{font-size:14px;font-family:"Microsoft Yahei",宋体,PMingLiU,Verdana,Arial,Helvetica,sans-serif !important;}
+
+
+input{font-size:14px;font-family:Tahoma,Arial,sans-serif !important;}
+body{background: #282C2F !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	}
+#login {
+width:320px;
+margin: auto;
+}
+.login form {
+margin-left:8px;
+background: #2F3336;
+padding:26px 24px 46px;
+font-weight:normal;
+border:none;
+overflow:visible ;
+}
+.login form .input, .login input[type="text"] {
+    color: #C2C2C2 !important;
+	height: 50px !important;
+	width: 100% !important;
+	border-radius: 4px !important;
+	padding-left: 20px !important;
+	border: 1px solid rgba(0,0,0,0.1) !important;
+	background-color: #2A2D30 !important;
+	transition: all 0.3s ease-in !important;
+	outline：none;
+}
+.login form .input:hover, .login input:hover[type="text"] {
+
+	border: 1px solid #24B999 !important;
+
+}
+#rememberme {
+		background-color: #2A2D30 !important;
+		border: 1px solid #24B999 !important;
+}
+
+#wp-submit {
+	font-family: "Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu;
+	font-size: 13px;
+	line-height: 13px;
+	color: rgba(254,254,254,0.6);
+	background: rgba(0,0,0,0.1);
+	padding: 14px 20px 24px;
+	border: 0;
+	border-radius: 4px;
+	transition: background-color 0.3s ease-in;
+	outline：none;
+	border: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+#wp-submit:hover {
+	background: #24B999;
+}
+
+
+
+
+
+

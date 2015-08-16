@@ -1,0 +1,110 @@
+/*  
+
+Theme Name: candy
+
+Theme URI: http://www.mao01.com/
+
+Description: 简单制作Blog主题 清新 方便 快捷
+
+Version: 1.0
+
+Author: Bingo_H
+
+Author URI: http://www.mao01.com/
+
+
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+   outline: none;
+}
+html { height: 100%; } /* always display scrollbars */
+body { font-size: 12px; line-height: 1.8; font-family: 'Microsoft Yahei', Simsun, Arial,  Helvetica, sans-serif, Tahoma;color:#000; position:relative; background: #fff; background:#f2f2f2;}
+ 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul, li { list-style: none; }
+ 
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; } 
+ 
+input,input:focus { outline: none;}
+ 
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+.img-div img  { max-width: none; width:100%; }
+ 
+a { text-decoration: none;color:#333; }
+a:hover { color: #1AA0E1 ; text-decoration:none; }
+/* CSS Reset End */
+
+.alignleft { float:left;}
+.alignright { float:right;}
+.aligncenter { margin-left:auto; margin-right:auto;display: block; }
+.c { clear:both; width:100%; height:0; overflow:hidden;}
+
+
+
+.logo { background: url(img/huang2.png) no-repeat center center; width:110px; height: 50px; display:block; margin-left:10%;}
+.xstc { position:absolute; bottom: 0px; left:0px; width:100%; height:100%; background:#1AA0E1; padding: 15px; opacity: 0.5; border-radius:10px;}
+.juhuangse { color: #428BCA;}
+.glyphicon.glyphicon-tag { color: fff;}
+.zitifff { color:#fff;}
+.zitifff {height:75%; overflow: hidden;}
+.lzt span {color: #1AA0E1 ;}
+.lzt1 { color:#999;}
+#bianxiao { width:50px;padding: 1px; margin: 10px 0 0 8px; font-size:12px;}
+.ymd { font-size: 12px; color:#999999; line-height:30px;}
+.fltitle { font-size:16px; color:#999999; margin-bottom:10px;}
+.fltitle1 { font-size:16px; color:#999999; margin-bottom:10px; margin-top:10px;}
+.ztbd { font-size:16px; margin: 10px 0px; color:#666666;}
+#hbjs { background:#fff;}
+#top15 .media:first-child { margin-top: 15px;}
+#top15 p { height: 80px;}
+#top15 .margin-left { margin-left:30px; margin-top:15px; display:block; float:left; }
+
+#top15 h4 { font-size: 16px; color: #FF0033; width:230px; height: 28px; overflow:hidden;}
+#sytpkd { width: 263px; height: 855px;}
+#syhdkd { width: 848px;}
+#footerdk { width: 100%; float:left; height: 100px; background: url(img/footer.jpg); margin-top:30px;}
+#footerzk { width: 600px; margin:0 auto;height:30px; margin-top: 25px;}
+.ziti12 { color:#fff; }
+#footerzk h4 { float:left; color:#FFFFFF; margin-right: 10px; margin-left: 20px;}
+#footerzk li { float:left;  padding-left: 10px; }
+#footerzk a {color:#FFFFFF;}
+#footzi2 { width: 600px; margin: 0 auto; color:#FFFFFF;}
+#footzi2 a { color:#FFFFFF;}
+#lineheight { line-height: 0;}
+.rmwz { margin-left:15px; padding: 15px 0px; color:#999999; font-size: 18px; font-weight:bold;}
+.djck { line-height:35px; font-size:14px; color:#999999; margin-top:-5px;}
+#pgs { font-size:14px;}
+#pgs a { color:#0066FF;}
+.comment-bnt { margin-left: 20px;}
+#respond { width: 620px;}
+#shareBnt { margin-left:20px;}
+#respond h3 { font-size:22px; margin: 10px 5px;}
+#author { width: 400px; height: 40px; margin:20px 0 10px 0px; font-size:16px;}
+#email { width: 400px; height: 40px; margin:5px 0 10px 0px;font-size:16px;}
+#url { width: 400px; height: 40px; margin:5px 0 10px 0px;font-size:16px;}
+#submit { width: 90px; height: 40px; margin:5px 0 10px 0px;font-size:14px; }
+#comment { margin:5px 0 10px 0px;font-size:16px;}
+#headbjs { background: #1AA0E1;}
+#idzi a { color:#fff; margin-left: 20px;}
+#headbjs a { color:#fff;}
+#headbjs .open a { background: #1AA0E1;}
+.paddingsx15 a { display:block; padding: 5px 0px;}
+#headbjs { color:#fff;}
+#singleb { background: #Fff;}
+#azuo a { margin-left: 10px;}
+.textwidget img { width: 100%;}
+
+.page_item { float:left; margin-left: 50px; font-size: 16px; line-height: 50px;}
+.navbar-nav { font-size: 14px;}
+.caption p { height: 50px; overflow:hidden;}
+#recentcomments .recentcomments.list-group-item { overflow:hidden;}
+

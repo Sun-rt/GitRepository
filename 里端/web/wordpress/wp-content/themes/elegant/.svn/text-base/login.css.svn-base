@@ -1,0 +1,93 @@
+header{background: url(images/bg-menu.png) repeat-x scroll 0 0 transparent;
+    height: 45px;
+    width: 100%;}
+.header-inner{background: url(images/shadow.png) no-repeat scroll center bottom transparent;
+    height: 60px;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 920px;
+    padding: 0;}
+
+.logo {
+    float: left;
+    height: 120px;
+    margin-top: 30px;
+    position: relative;
+    width: 120px;
+    z-index: 100;
+text-indent:-9999px;background:url(images/login.png) no-repeat}
+
+body.login{-webkit-text-size-adjust:none;background-image: url(images/patt.png);
+    color: #666666; height: auto; min-height: 100%; }
+
+#login {
+    margin:0 auto;
+    padding: 54px 0 0;
+    width: 960px;
+}
+.login .message { width: 284px; float: right; }
+
+.login form {width:260px;float:right;clear: both; margin-bottom: 30px;}
+
+.login h1 a{background:url(images/login.png) no-repeat;float: left;
+    height: 120px;
+    
+    position: relative;
+    width: 120px;display:none}
+
+.login #nav, .login #backtoblog {
+    display:none
+}
+#container-bottom {
+    width: 100%;
+}
+
+#slogan {
+    height: 120px;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 920px;
+    padding: 0;
+}
+#slogan h1 a{display:block;font-family: 'PT Sans Narrow',"Microsoft YaHei", serif; font-weight:400;line-height:28px; color:#2f3231;}
+#smargin {
+    margin: 0;
+    padding: 0 20px;
+}.tagline {
+    float: left;
+    height: 80px;
+    margin: 67px 0 0 20px;
+    position: relative;
+    width: 210px;
+    z-index: 100;}.tagline h3 {
+    font-size: 16px;
+    line-height: 1.3em;font-family: 'PT Sans Narrow',"Microsoft YaHei", serif;font-weight:400
+}
+.slogan {
+    padding-left: 420px;
+    padding-top: 65px;
+    position: relative;
+}
+.slogan h1 {
+    font-size: 18px;
+    line-height: 1.3em;font-family: 'PT Sans Narrow',"Microsoft YaHei", serif;font-weight:400
+}	
+#wp-submit{border:none;display:inline-block;height:26px;line-height:26px;padding:0 12px;font-size:12px;color:#fff;min-width:48px;text-align:center;border-radius:2px}
+#wp-submit{background-color:#1E7BB3;background-image:-webkit-linear-gradient(top,#3999D2,#1E7BB3);background-image:-moz-linear-gradient(top,#3999D2,#1E7BB3);background-image:-ms-linear-gradient(top,#3999D2,#1E7BB3);border-bottom:1px solid #02598E;box-shadow:#bbb 0 1px 2px;text-shadow:#1E7BB3 0 -1px 0}
+#wp-submit:hover{opacity:.9;filter:alpha(opacity=9);color:#fff}
+#topmenu{float: left;
+    margin-right: 20px;
+    width: auto;display:block}
+#topmenu a{color: #666;
+    display: block;   
+    font-size: 12px;
+    font-style: normal;
+    line-height: 14px;
+    padding: 11px 13px 14px;
+    text-decoration: none;}
+#topmenu a:hover{color:#333}
+#topmenu li{float: left;
+    position: relative;padding-top: 4px;}
+#topmenu li.current a{background-color: #F0EFEF;
+    color: #333333;}	
+.login form .input:focus, .login input[type="text"]:focus{border-color:#3999D2;box-shadow:0 0 3px #1E7BB3}	

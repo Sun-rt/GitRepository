@@ -1,0 +1,169 @@
+<?php  get_header(); ?>
+<script>
+$(document).ready(function(){
+	var excerpt= $("#itemexcerpt p")
+	var content = excerpt.html();
+    var flag = false;
+    while(content.replace( /[^\x00-\xff]/g ,"xx").length > 600){
+        content = content.substring(0,content.length - 1);
+        flag = true;
+    }
+    if(flag){
+        content += "...<a href=\"<?php the_permalink();?>\">>>详情</a>";
+    }
+    excerpt.html(content);
+});
+</script>
+<div class="container">
+	<?php
+
+	$args = array(
+    // 以下代码中设置显示文章的ID
+    	'post__in'   => array(127,130,133,109),
+    	'showposts' => 4
+	);
+     query_posts($args);
+	 $count = 1?>
+	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+	<?php $meta = getmetadatas($post->ID);?>
+	<?php if($count%2 > 0){?>
+	<div class="row" id="postitem">
+		<div class="col-md-5" id="descript">
+			<div class="row">
+				<div class="col-md-12">
+					<h3> <a href="<?php the_permalink();?>"><b><?php the_title(); ?><b></a></h3>
+				</div>
+			</div>
+			<div  class="row">
+				<div class="col-md-12" id="itemexcerpt"><?php the_excerpt(); ?></div>
+
+			</div>
+			
+			<div class="row">
+				<div class="col-md-2"><p id="itemtag">材料</p></div>
+				<div class="col-md-10 meta"><?php echo $meta->material?></div>
+			</div>
+			<div class="row">
+				<div class="col-md-2" ><p id="itemtag">颜色</p></div>
+				<div class="col-md-10 meta">
+			 		<?php foreach(get_the_tags() as $this_tag) { ?>
+			      	 <div style=" float:left;margin:3px;margin-top:5px;height:15px;width:15px;max-height:30px;max-width:30px;background-color:<?php echo $this_tag->name?>"></div>
+			      	<?php } ?>
+			      	</div>
+			</div>
+			<div class="row" >
+				<div class="col-md-2" ><p id="itemtag">款式</p></div>
+				<div class="col-md-10 meta"><?php echo $meta->style?></div>
+			</div>
+			<div class="row">
+				<div class="col-md-2" ><p id="itemtag">厂家</p></div>
+				<div class="col-md-10 meta"><?php echo $meta->manufacturer?></div>
+			</div>
+			<div class="row">
+				<div class="col-md-2" ><p id="itemtag">产地</p></div>
+				<div class="col-md-10 meta"><?php echo $meta->link?></div>
+			</div>
+		</div>
+		<div class="col-md-7 pull-right" id="thumbnail"> 
+			<img src="<?php echo mmimg(); ?>"/>
+		</div>
+	</div>
+	<?php }else{?>
+	<div class="row" id="postitem">
+			<div class="col-md-7 pull-left" id="thumbnail"> 
+				<img src="<?php echo mmimg(); ?>"/>
+			</div>
+			<div class="col-md-5" id="descript">
+				<div  class="row">
+					<div class="col-md-12" >
+						<h3> <a href="<?php the_permalink();?>"><b><?php the_title(); ?><b></a></h3>
+					</div>
+				</div>
+				<div  class="row">
+					<div class="col-md-12" id="itemexcerpt" ><?php the_excerpt(); ?></div>
+				</div>
+			
+				<div class="row">
+					<div class="col-md-2"><p id="itemtag">材料</p></div>
+					<div class="col-md-10 meta"><?php echo $meta->material?></div>
+				</div>
+				<div class="row">
+					<div class="col-md-2" ><p id="itemtag">颜色</p></div>
+					<div class="col-md-10 meta">
+				 		<?php foreach(get_the_tags() as $this_tag) { ?>
+				      	 <div style=" float:left;margin:3px;margin-top:5px;height:15px;width:15px;max-height:30px;max-width:30px;background-color:<?php echo $this_tag->name?>"></div>
+				      	<?php } ?>
+				      	</div>
+				</div>
+				<div class="row" >
+					<div class="col-md-2" ><p id="itemtag">款式</p></div>
+					<div class="col-md-10 meta"><?php echo $meta->style?></div>
+				</div>
+				<div class="row">
+					<div class="col-md-2" ><p id="itemtag">厂家</p></div>
+					<div class="col-md-10 meta"><?php echo $meta->manufacturer?></div>
+				</div>
+				<div class="row">
+					<div class="col-md-2" ><p id="itemtag">产地</p></div>
+					<div class="col-md-10 meta"><?php echo $meta->link?></div>
+				</div>
+			</div>
+		</div>
+		<?php } $count++;?>
+	
+	<?php endwhile; endif; ?>
+	<div class="row">
+		<div class="col-md-2 col-md-offset-10">
+			<p ><button class="btn btn-default btn pull-right"   onclick="window.location.href='<?php echo get_settings('home')."/all" ?>'" style="width:80px;height:30px" role="button">更多案例</button></p>
+		</div>
+	</div>
+		<?php wp_reset_query();
+ 	?>
+</div>
+
+<!--div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<?php  
+					$categorys = getCategorys();
+					foreach ($categorys as $category) { ?>
+							<div class="panel panel-default" style="margin-top: 20px;">
+								<div class="panel-heading" id="headbjs">
+								<i class="glyphicon glyphicon-tag"></i>
+								<span style="color:#fff; margin-left:10px;">
+								<a href="<?php echo get_category_link($category->term_id) ?>"><?php echo get_cat_name(''. $category->term_id .'') ?></a>
+								</span>
+								<a class="pull-right" href="<?php echo get_category_link(''.$category->term_id.''); ?>"> 更多
+								</a>
+								</div>
+								<div class="panel-body">
+									<div class="row">
+									
+									<?php query_posts('cat='.$category->term_id.'&showposts=3'); ?>
+									<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+										<div class="col-md-4" style="padding:0 10px 0 10px;">
+											<div style="border:1px solid #eee;padding:10px">
+											<div id="img-div" > 
+												<a href="<?php the_permalink();?>"> 
+													<img src="<?php echo mmimg(); ?>"/>
+												</a>
+											</div>
+											<a style="color:#999;font-size:18px; height:30px; overflow:hidden; display:block; margin:0px; " href="<?php the_permalink(); ?>"><b><?php the_title(); ?></b></a>
+												<ul class="focus">
+													<li class="metaauthor"><?php if( !is_author() ){ ?><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ) ?>"><?php echo get_the_author() ?></a><?php } ?></li>	
+													<li class="metacomt"><?php 
+																	if ( comments_open() ) echo '<a href="'.get_comments_link().'">'.get_comments_number('0', '1', '%').'&nbsp;评论数</a>';
+																?></li>												
+													<li class="metatime"><?php if(is_home()) the_time('Y.m.d'); else the_time('Y-m-d'); ?></li>
+												</ul>
+											</div>		
+										</div>
+									<?php endwhile; endif; ?>
+									</div>
+								</div>
+							</div>			  
+				<?php };?>		
+			
+		</div>
+	</div-->
+<?php get_footer(); ?>

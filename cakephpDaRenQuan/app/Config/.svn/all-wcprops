@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/circlefly/!svn/ver/527/1/app/Config
+END
+email.php.default
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/circlefly/!svn/ver/2/1/app/Config/email.php.default
+END
+acl.ini.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/circlefly/!svn/ver/483/1/app/Config/acl.ini.php
+END
+bootstrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/circlefly/!svn/ver/527/1/app/Config/bootstrap.php
+END
+acl.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/circlefly/!svn/ver/483/1/app/Config/acl.php
+END
+routes.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/circlefly/!svn/ver/483/1/app/Config/routes.php
+END
+database.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/circlefly/!svn/ver/483/1/app/Config/database.php
+END
+email.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/circlefly/!svn/ver/486/1/app/Config/email.php
+END
+core.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/circlefly/!svn/ver/483/1/app/Config/core.php
+END

@@ -1,0 +1,16 @@
+@media (min-width: 1200px) {
+	#zsytp { height: 350px;}
+	
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	#zsytp { height: 350px;}
+}
+@media (max-width: 991px) {
+	#zsytp { height: 350px;}
+}
+@media (max-width: 768px) {
+	#zsytp { height: 350px;}
+}
+@media (max-width: 480px) {
+	#zsytp { height: 350px;}
+}

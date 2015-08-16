@@ -1,0 +1,35 @@
+
+			body{
+				background: #14110a;
+			}
+			#container {
+				
+				margin: 0;
+				overflow: hidden;
+			}
+			#main {
+				background: url(images/all.png) no-repeat 0 0;
+				margin: 100px auto 50px;
+				width: 454px;
+				height: 523px;
+				display: block;
+			}
+			#blog {
+				display: inline-block;
+				margin: 210px 60px 0 130px;
+				width: 80px;
+				height: 80px;
+				text-indent: -9999em;
+			}
+			#design {
+				display: inline-block;
+				width: 80px;
+				height: 80px;
+				text-indent: -9999em;
+			}
+			#me{
+				width: 170px;
+				height: 394px;
+				margin: 0px auto;
+				background: url(images/me.png) no-repeat;
+			}

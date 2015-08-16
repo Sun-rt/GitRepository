@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/circlefly/!svn/ver/15/1/app/Vendor/composer/installers
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/circlefly/!svn/ver/15/1/app/Vendor/composer/installers/composer.json
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/circlefly/!svn/ver/15/1/app/Vendor/composer/installers/LICENSE
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/circlefly/!svn/ver/15/1/app/Vendor/composer/installers/.gitignore
+END
+.travis.yml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/circlefly/!svn/ver/15/1/app/Vendor/composer/installers/.travis.yml
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/circlefly/!svn/ver/15/1/app/Vendor/composer/installers/phpunit.xml.dist
+END
+.editorconfig
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/circlefly/!svn/ver/15/1/app/Vendor/composer/installers/.editorconfig
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/circlefly/!svn/ver/15/1/app/Vendor/composer/installers/README.md
+END
